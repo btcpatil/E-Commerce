@@ -36,7 +36,7 @@ public class CategoryServiceImpl implements CategoryService{
 	}
 
 	@Override
-	public Optional<Category> updateCategory(Integer id) {
+	public Optional<Category> getCategoryById(Integer id) {
 		
 	 return	catRepo.findById(id);
 		

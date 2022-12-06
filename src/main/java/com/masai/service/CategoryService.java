@@ -13,6 +13,6 @@ public interface CategoryService {
 	
 	public void deleteCategory(Integer id);
 	
-	public Optional<Category> updateCategory(Integer id);
+	public Optional<Category> getCategoryById(Integer id);
 	
 }
